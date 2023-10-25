@@ -1,1 +1,125 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.continent {
+  height: calc(100vh - 15vh);
+  background-color: rgba(29, 114, 129, 0.295);
+}
+
+.app-body {
+  background-color: rgba(88, 88, 97, 0.295);
+}
+
+.flex {
+  display: flex;
+}
+
+.content-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.d-none {
+  display: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// margin-padding's
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.prl-200 {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-success {
+  color: green;
+}
