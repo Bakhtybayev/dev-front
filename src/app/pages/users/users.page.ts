@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-
+import { Component, ChangeDetectionStrategy, computed } from '@angular/core';
 @Component({
+  standalone: true,
   selector: 'app-users',
   templateUrl: './users.page.html',
   styleUrls: ['./users.page.scss'],
-  standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CommonModule],
 })
-export class UsersPage { }
+export class UsersPage {}
